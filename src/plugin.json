@@ -1,0 +1,31 @@
+{
+  "$schema": "https://raw.githubusercontent.com/grafana/grafana/main/docs/sources/developers/plugins/plugin.schema.json",
+  "type": "panel",
+  "name": "Better Timepicker Buttons",
+  "id": "infamousity-bettertimepickerbuttons-panel",
+  "info": {
+    "keywords": ["panel"],
+    "description": "Datasource configured buttons panel plugin which set the time range of your grafana dashboard only better",
+    "author": {
+      "name": "Infamousity"
+    },
+    "logos": {
+      "small": "img/logo.svg",
+      "large": "img/logo.svg"
+    },
+    "links": [
+      {"name": "Website", "url": "https://github.com/cmmoran/grafana-timepicker-buttons"},
+      {"name": "License", "url": "https://github.com/cmmoran/grafana-timepicker-buttons/blob/master/LICENSE"}
+    ],
+    "screenshots": [
+      {"name": "Panel", "path": "img/panel.png"},
+      {"name": "SQL Queries", "path": "img/sql_queries.png"}
+    ],
+    "version": "%VERSION%",
+    "updated": "%TODAY%"
+  },
+  "dependencies": {
+    "grafanaDependency": ">=10.0.3",
+    "plugins": []
+  }
+}
